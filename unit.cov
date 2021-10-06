@@ -1,0 +1,166 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/home/runner/work/tea/tea/Classes/Domain/Repository/Traits/StoragePageAgnosticTrait.php' => 
+  array (
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+  ),
+  '/home/runner/work/tea/tea/Classes/Controller/TeaController.php' => 
+  array (
+    23 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::isActionController',
+      1 => 'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::indexActionAssignsAllTeaAsTeasToView',
+      2 => 'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::showActionAssignsPassedTeaAsTeaToView',
+    ),
+    24 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::isActionController',
+      1 => 'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::indexActionAssignsAllTeaAsTeasToView',
+      2 => 'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::showActionAssignsPassedTeaAsTeaToView',
+    ),
+    28 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::indexActionAssignsAllTeaAsTeasToView',
+    ),
+    29 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::indexActionAssignsAllTeaAsTeasToView',
+    ),
+    33 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::showActionAssignsPassedTeaAsTeaToView',
+    ),
+    34 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::showActionAssignsPassedTeaAsTeaToView',
+    ),
+  ),
+  '/home/runner/work/tea/tea/Classes/Domain/Repository/Product/TeaRepository.php' => 
+  array (
+  ),
+  '/home/runner/work/tea/tea/Classes/Domain/Model/Product/Tea.php' => 
+  array (
+    36 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::getTitleInitiallyReturnsEmptyString',
+      1 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setTitleSetsTitle',
+    ),
+    37 => NULL,
+    41 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setTitleSetsTitle',
+    ),
+    42 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setTitleSetsTitle',
+    ),
+    46 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::getDescriptionInitiallyReturnsEmptyString',
+      1 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setDescriptionSetsDescription',
+    ),
+    47 => NULL,
+    51 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setDescriptionSetsDescription',
+    ),
+    52 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setDescriptionSetsDescription',
+    ),
+    56 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::getImageInitiallyReturnsNull',
+      1 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setImageSetsImage',
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    62 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::getImageInitiallyReturnsNull',
+      1 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setImageSetsImage',
+    ),
+    63 => NULL,
+    67 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setImageSetsImage',
+    ),
+    68 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setImageSetsImage',
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::isActionController' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::indexActionAssignsAllTeaAsTeasToView' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Unit\\Controller\\TeaControllerTest::showActionAssignsPassedTeaAsTeaToView' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::getTitleInitiallyReturnsEmptyString' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setTitleSetsTitle' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::getDescriptionInitiallyReturnsEmptyString' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setDescriptionSetsDescription' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::getImageInitiallyReturnsNull' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Unit\\Domain\\Model\\Product\\TeaTest::setImageSetsImage' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/home/runner/work/tea/tea/Classes/Controller/TeaController.php' => true,
+  '/home/runner/work/tea/tea/Classes/Domain/Model/Product/Tea.php' => true,
+  '/home/runner/work/tea/tea/Classes/Domain/Repository/Product/TeaRepository.php' => true,
+  '/home/runner/work/tea/tea/Classes/Domain/Repository/Traits/StoragePageAgnosticTrait.php' => true,
+));
+
+return $coverage;

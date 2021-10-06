@@ -1,0 +1,156 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/home/runner/work/tea/tea/Classes/Controller/TeaController.php' => 
+  array (
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+  ),
+  '/home/runner/work/tea/tea/Classes/Domain/Model/Product/Tea.php' => 
+  array (
+    36 => 
+    array (
+    ),
+    37 => NULL,
+    41 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    47 => NULL,
+    51 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    63 => NULL,
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+  ),
+  '/home/runner/work/tea/tea/Classes/Domain/Repository/Traits/StoragePageAgnosticTrait.php' => 
+  array (
+    20 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllForNoRecordsReturnsEmptyContainer',
+      1 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllWithRecordsFindsRecordsFromAllPages',
+      2 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllSortsByTitleInAscendingOrder',
+      3 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findByUidForExistingRecordReturnsModelWithData',
+      4 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::fillsImageRelation',
+      5 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::addAndPersistAllCreatesNewRecord',
+    ),
+    21 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllForNoRecordsReturnsEmptyContainer',
+      1 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllWithRecordsFindsRecordsFromAllPages',
+      2 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllSortsByTitleInAscendingOrder',
+      3 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findByUidForExistingRecordReturnsModelWithData',
+      4 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::fillsImageRelation',
+      5 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::addAndPersistAllCreatesNewRecord',
+    ),
+    22 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllForNoRecordsReturnsEmptyContainer',
+      1 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllWithRecordsFindsRecordsFromAllPages',
+      2 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllSortsByTitleInAscendingOrder',
+      3 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findByUidForExistingRecordReturnsModelWithData',
+      4 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::fillsImageRelation',
+      5 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::addAndPersistAllCreatesNewRecord',
+    ),
+    23 => 
+    array (
+      0 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllForNoRecordsReturnsEmptyContainer',
+      1 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllWithRecordsFindsRecordsFromAllPages',
+      2 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllSortsByTitleInAscendingOrder',
+      3 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findByUidForExistingRecordReturnsModelWithData',
+      4 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::fillsImageRelation',
+      5 => 'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::addAndPersistAllCreatesNewRecord',
+    ),
+  ),
+  '/home/runner/work/tea/tea/Classes/Domain/Repository/Product/TeaRepository.php' => 
+  array (
+  ),
+));
+$coverage->setTests(array (
+  'TTN\\Tea\\Tests\\Functional\\Controller\\TeaControllerTest::indexActionRendersTeaTitle' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllForNoRecordsReturnsEmptyContainer' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllWithRecordsFindsRecordsFromAllPages' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findAllSortsByTitleInAscendingOrder' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::findByUidForExistingRecordReturnsModelWithData' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::fillsImageRelation' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'TTN\\Tea\\Tests\\Functional\\Domain\\Repository\\Product\\TeaRepositoryTest::addAndPersistAllCreatesNewRecord' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/home/runner/work/tea/tea/Classes/Controller/TeaController.php' => true,
+  '/home/runner/work/tea/tea/Classes/Domain/Model/Product/Tea.php' => true,
+  '/home/runner/work/tea/tea/Classes/Domain/Repository/Product/TeaRepository.php' => true,
+  '/home/runner/work/tea/tea/Classes/Domain/Repository/Traits/StoragePageAgnosticTrait.php' => true,
+));
+
+return $coverage;
