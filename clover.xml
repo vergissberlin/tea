@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1635898096">
-  <project timestamp="1635898096">
+<coverage generated="1635898590">
+  <project timestamp="1635898590">
     <package name="TTN\Tea\Controller">
       <file name="/home/runner/work/tea/tea/Classes/Controller/TeaController.php">
         <class name="TTN\Tea\Controller\TeaController" namespace="TTN\Tea\Controller">
