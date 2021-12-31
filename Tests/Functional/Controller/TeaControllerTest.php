@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TTN\Tea\Tests\Functional\Controller;
 
-use Nimut\TestingFramework\TestCase\FunctionalTestCase;
+use TYPO3\TestingFramework\Core\Functional\FunctionalTestCase;
 
 /**
  * @covers \TTN\Tea\Controller\TeaController
@@ -12,12 +12,12 @@ use Nimut\TestingFramework\TestCase\FunctionalTestCase;
 class TeaControllerTest extends FunctionalTestCase
 {
     /**
-     * @var string[]
+     * @var array<int, string>
      */
     protected $testExtensionsToLoad = ['typo3conf/ext/tea'];
 
     /**
-     * @var string[]
+     * @var array<int, string>
      */
     protected $coreExtensionsToLoad = ['fluid_styled_content'];
 
